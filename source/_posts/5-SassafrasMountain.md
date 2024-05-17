@@ -1,4 +1,6 @@
-# Sassafras Mountain 
+---
+title: 5 - Sassafras Mountain 
+---
 
 Once again I asked myself why.  Why bother, why come out here so far, for what purpose?  I had no valid answers. At first I had seen our venture as something akin to sport, something to be racked up as "an achievement". Then I had seen it as a way of indulging my pride, a frivolous vanity.  Now I saw our enterprise as utterly meaningless or, at best, as an alibi to roam where few even had the chance to, with the added hope of discovering a little more about ourselves. - Michel Peissel, from his book The Last Barbarians, discussing his expedition to locate the source of the Mekong River in Tibet. 
 

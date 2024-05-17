@@ -1,4 +1,6 @@
-# Monarchs of the Blue Ridge 
+---
+title: 6 - Monarchs of the Blue Ridge 
+---
 
 Let's suppose you are a monarch butterfly flitting around the fields and forests of North Carolina on a hot summer day in late August. What are you likely to get the urge to do?  Find some flowers and drink some nectar? Maybe. Hook up with some cute monarch flutterers of the opposite sex? Maybe. How about taking a road trip? A long road trip. Like maybe taking a couple of months to fly over a thousand miles to the mountains of central Mexico where you can spend the winter clutching a tree along with several million other monarchs who have also migrated down from the north? Bingo. In the late summer and early fall, monarchs across the United States start fluttering south on a migration that is simply amazing. 
 

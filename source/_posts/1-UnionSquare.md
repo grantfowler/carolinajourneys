@@ -1,4 +1,6 @@
-# Union Square
+---
+title: 1 - Union Square
+---
 
 For several years now I've enjoyed a fourth floor office in downtown Raleigh with a grand view of the North Carolina State Capital just across Morgan Street from my building.  When I look up from my computer to stretch my neck and ponder some difficult aspect of my work for the state, I often glance out my window and watch the flags flapping on the Capital dome or the occasional demonstrators carrying their signs and bullhorns around the statues on the Capital grounds. Sometimes I glimpse the brown and white hawk that sits high up in the big trees surrounding the Capital eyeing the busy but scatter-brained resident squirrels.  And then sometimes, as my mind relaxes and wonders, I gaze out the window past the Capital building just beyond the park-like Capital grounds to where the brown waters of the stately Neuse River flow by. 
 

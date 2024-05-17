@@ -1,4 +1,6 @@
-The Shut-In Trail 
+---
+title: 8 - The Shut-In Trail 
+---
 
 George Washington Vanderbilt was a rich man. In 1888 he began to buy up tracts of forest south of Asheville. He bought up the land surrounding the long ridge that runs up from the French Broad River to Mount Pisgah. And then he bought the top of Mount Pisgah itself from Thomas Lanier Clingman (of Clingman's Dome fame) who had owned the property since the 1830s. In addition to the famous 255 room Biltmore House, Vanderbilt constructed a log hunting lodge at Buck Springs Gap near the top of Mount Pisgah. He called it Buck Springs Lodge. To get from Biltmore House to Buck Springs Lodge, Vanderbilt needed a trail. So he built one that ran from the Biltmore House up the ridge from the French Broad to Buck Springs Gap. Probably because of the thick rhododendron thickets covering parts of the ridge, he called it the Shut-In Trail. And it's still there. 
 

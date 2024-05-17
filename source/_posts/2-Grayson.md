@@ -1,4 +1,6 @@
-# If It Hadn'a Been For Grayson 
+---
+title: 2 - If It Hadn'a Been For Grayson 
+---
 
 He met her on a mountain. And that's where he killed her. Did it with his knife, he did. Well now, boys.  Maybe it's no surprise to you that the hang down your head miscreant made famous by the Kingston Trio's song was a real fellow who grew up in Wilkes County, North Carolina, and fought with the South in the Civil War. After the war Tom Dooley returned home to Wilkes County - but he had some trouble settling down. He had some problems - women problems. Tom Dooley was twice tried and twice convicted of murdering a local girl, Laura Foster, with his knife, and he was sentenced to death by hanging. But he wasn't executed down in some lonesome valley, swinging from a white oak tree, as the song suggests. He was hung from a scaffold in front of hundreds of spectators in downtown Statesville on May 1, 1868.  But it is true that except for a guy named Grayson, Tom Dooley might have lived out his natural life in Tennessee. 
 
