@@ -4,9 +4,9 @@
 
 # Site
 title: Carolina Journeys
-subtitle: ''
+subtitle: Exploring The Trails of the Carolinas - Both Real & Imagined
 description: ''
-keywords:
+keywords: trails, history
 author: Grant Fowler
 language: en
 timezone: America/New_York
@@ -98,7 +98,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: clean-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

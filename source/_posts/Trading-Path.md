@@ -40,3 +40,4 @@ For further information about the Trading Path and related matters:
 - Stephen Davis, Patrick Livingood, Trawick Ward & Vincas Steponaitis, Excavating Occaneechi Town: Archaeology of an Eighteenth Century Indian Village in North Carolina, a CD-Rom (UNC Press, 1998) 
 - Occaneechi Band of the Saponi Nation Web Page (with information about reenactments at the reconstructed Occaneechi Village in Hillsborough): www.occaneechi-saponi.org 
 - N. C. Archaeology Home Page: www.arch.dcr.state.nc.us 
+
