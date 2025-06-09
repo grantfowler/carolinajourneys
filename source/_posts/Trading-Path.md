@@ -1,6 +1,6 @@
 ---
 title: 3 - Retracing the Great Indian Trading Path - Occaneechi Town to the Trading Ford 
-date: 2025-06-01 12:00:00
+date: 2004-06-29 12:00:00
 tags:
 ---
 
