@@ -39,6 +39,12 @@ jobs:
           npx hexo clean
           npx hexo generate
 
+      - name: Debug git status
+        run: |
+          git status
+          git log --oneline -5
+          ls -la ./public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
