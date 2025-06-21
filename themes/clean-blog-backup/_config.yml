@@ -1,0 +1,60 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  About: /About
+  Trails: /categories/trails/
+  History: /categories/history
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: Carolina Journeys
+
+# URL of the Home page image
+index_cover: img/blue-ridge-header.jpg
+
+# Default post title
+default_post_title: An Untitled Journey
+default_post_subtitle: Exploring the paths of the Carolinas
+
+author: Grant Fowler
+author_title: Explorer & Storyteller
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname:
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+google_tag_manager:
+
+search:
+  enable: true
+  placeholder: "Search Carolina Journeys..."
+
+reading_time: true
+post_nav: true
+copyright:
+  enable: true
+  text: "Carolina Journeys - Exploring the trails of the Carolinas, both real and imagined"
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon:
+
+# Social Accounts
+twitter_url:
+twitter_handle:
+facebook_url:
+github_url: https://github.com/grantfowler/carolinajourneys
+gitlab_url:
+linkedin_url:
+mailto: 
