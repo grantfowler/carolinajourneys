@@ -1,0 +1,90 @@
+/* Carolina Journeys Custom Styling */
+
+/* Color Palette - Carolina-inspired */
+:root {
+  --carolina-blue: #4B9FE1;
+  --forest-green: #2D5016;
+  --mountain-gray: #6C7B7F;
+  --sunset-orange: #E4813D;
+  --earth-brown: #8B4513;
+  --cream: #F5F5DC;
+}
+
+/* Header customizations */
+.site-heading h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  font-family: 'Crimson Text', serif;
+}
+
+.site-heading .subheading {
+  color: rgba(255,255,255,0.9);
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
+}
+
+/* Post titles */
+.post-title {
+  font-family: 'Crimson Text', serif;
+  color: var(--forest-green);
+}
+
+.post-subtitle {
+  color: var(--mountain-gray);
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: var(--carolina-blue);
+}
+
+a:hover {
+  color: var(--forest-green);
+}
+
+/* Trail notes styling */
+.trail-notes {
+  background-color: var(--cream);
+  border-left: 4px solid var(--sunset-orange);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.trail-notes h4 {
+  color: var(--forest-green);
+  margin-top: 0;
+}
+
+/* Navigation */
+.navbar-custom .nav li a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--forest-green);
+  color: white;
+}
+
+/* Reading time and metadata */
+.post-meta {
+  color: var(--mountain-gray);
+  font-size: 14px;
+}
+
+/* Blockquotes for historical quotes */
+blockquote {
+  border-left: 4px solid var(--earth-brown);
+  background-color: #fafafa;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+blockquote cite {
+  color: var(--mountain-gray);
+  font-size: 0.9em;
+}
