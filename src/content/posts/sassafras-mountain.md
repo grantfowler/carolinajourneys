@@ -1,5 +1,6 @@
 ---
 title: "Sassafras Mountain"
+author: "Tom Fowler"
 date: 2004-06-24
 description: "A journey to the highest point in South Carolina, where the Blue Ridge meets the Piedmont."
 tags: ["Hiking", "Mountains", "South Carolina", "Highpoints"]

@@ -1,5 +1,6 @@
 ---
 title: "Live Oaks with First Names"
+author: "Tom Fowler"
 date: 2004-06-28
 description: "Visiting the ancient live oaks of coastal Carolina - the Indian Trail Tree, the Secession Oak, and the magnificent Angel Oak."
 tags: ["History", "Coastal", "Trees", "South Carolina"]
