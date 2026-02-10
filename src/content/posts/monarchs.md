@@ -1,5 +1,5 @@
 ---
-title: "The Monarchs of the Outer Banks"
+title: "6 - Monarchs of the Blue Ridge"
 date: 2004-06-26
 description: "Witnessing the annual monarch butterfly migration along the Outer Banks of North Carolina."
 tags: ["Wildlife", "Coastal", "Outer Banks", "Nature"]
