@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, date, tags, description, image } = post.data;
+const { title, date, author, tags, description, image } = post.data;
 
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -20,7 +20,13 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   <article class="max-w-3xl mx-auto px-4 py-12">
     <!-- Article Header -->
     <header class="mb-10 text-center">
-      <div class="flex items-center justify-center gap-2 text-sm text-trail mb-4">
+      <div class="flex items-center justify-center gap-3 text-sm text-trail mb-4">
+        {author && (
+          <>
+            <span class="text-ink-light">by <span class="font-medium">{author}</span></span>
+            <span class="text-trail/50">•</span>
+          </>
+        )}
         <span>📅</span>
         <time datetime={date.toISOString()}>{formattedDate}</time>
       </div>

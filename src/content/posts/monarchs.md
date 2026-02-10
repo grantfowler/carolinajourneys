@@ -1,5 +1,6 @@
 ---
 title: "Monarchs of the Blue Ridge"
+author: "Tom Fowler"
 date: 2004-06-26
 description: "Witnessing the annual monarch butterfly migration along the Outer Banks of North Carolina."
 tags: ["Wildlife", "Coastal", "Outer Banks", "Nature"]

@@ -1,5 +1,6 @@
 ---
 title: "If It Hadn'a Been For Grayson"
+author: "Tom Fowler"
 date: 2004-06-27
 description: "Exploring the windswept balds of Grayson Highlands State Park in Virginia, where wild ponies roam among the highest peaks in the state."
 tags: ["Hiking", "Mountains", "Virginia", "Wildlife"]
