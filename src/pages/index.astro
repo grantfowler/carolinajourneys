@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts', ({ data }) => !data.draft);
+const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="Home">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-b from-parchment-100 to-parchment-50 border-b border-trail/10">
+    <div class="max-w-4xl mx-auto px-4 py-16 sm:py-24 text-center">
+      <div class="mb-6">
+        <span class="inline-block text-6xl sm:text-7xl mb-4">🗺️</span>
+      </div>
+      <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink font-bold mb-6">
+        Carolina Journeys
+      </h1>
+      <p class="text-xl sm:text-2xl text-ink-light font-light max-w-2xl mx-auto leading-relaxed">
+        Exploring the trails of the Carolinas, both real and imagined
+      </p>
+      
+      <!-- Decorative element -->
+      <div class="mt-10 flex items-center justify-center gap-3 text-trail/60">
+        <div class="w-12 h-px bg-trail/30"></div>
+        <span class="text-sm tracking-widest uppercase">Est. 2004</span>
+        <div class="w-12 h-px bg-trail/30"></div>
+      </div>
+    </div>
+    
+    <!-- Decorative bottom border -->
+    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-trail/30 to-transparent"></div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="max-w-3xl mx-auto px-4 py-12">
+    <div class="prose prose-lg mx-auto text-center">
+      <p class="text-ink-light leading-relaxed">
+        A collection of journeys through the Carolina Piedmont and beyond — 
+        tracing old roads, forgotten paths, and the stories they carry. 
+        From the ancient Indian Trading Path to mountain trails and coastal explorations, 
+        these are dispatches from the field.
+      </p>
+    </div>
+  </section>
+
+  <!-- Articles List -->
+  <section class="max-w-4xl mx-auto px-4 py-8">
+    <h2 class="font-serif text-2xl text-ink mb-8 flex items-center gap-3">
+      <span class="text-trail">✦</span>
+      <span>Latest Journeys</span>
+    </h2>
+    
+    <div class="space-y-8">
+      {sortedPosts.map((post) => {
+        const formattedDate = new Date(post.data.date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
+        
+        return (
+          <article class="group border-l-2 border-parchment-300 pl-6 hover:border-forest-400 transition-colors">
+            <a href={`/posts/${post.slug}`} class="block">
+              <div class="flex items-center gap-2 text-sm text-trail mb-2">
+                <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
+                {post.data.tags && post.data.tags.length > 0 && (
+                  <>
+                    <span>•</span>
+                    <span class="text-ink-lighter">{post.data.tags[0]}</span>
+                  </>
+                )}
+              </div>
+              <h3 class="font-serif text-xl sm:text-2xl text-ink group-hover:text-forest-600 transition-colors mb-2">
+                {post.data.title}
+              </h3>
+              {post.data.description && (
+                <p class="text-ink-lighter line-clamp-2">
+                  {post.data.description}
+                </p>
+              )}
+            </a>
+          </article>
+        );
+      })}
+    </div>
+    
+    <div class="mt-12 text-center">
+      <a 
+        href="/posts" 
+        class="inline-flex items-center gap-2 px-6 py-3 bg-forest-600 text-white rounded-lg hover:bg-forest-500 transition-colors font-medium"
+      >
+        <span>View All Articles</span>
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+</BaseLayout>
