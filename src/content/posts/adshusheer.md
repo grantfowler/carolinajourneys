@@ -1,5 +1,5 @@
 ---
-title: "7 - The Road To Adshusheer"
+title: "The Road To Adshusheer"
 date: 2004-06-25
 description: "Searching for traces of Adshusheer, a vanished Sissipahaw Indian town on the banks of the Haw River."
 tags: ["History", "Native American", "Piedmont", "Rivers"]
