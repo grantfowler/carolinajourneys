@@ -1,0 +1,94 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { title, date, tags, description, image } = post.data;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Article Header -->
+    <header class="mb-10 text-center">
+      <div class="flex items-center justify-center gap-2 text-sm text-trail mb-4">
+        <span>📅</span>
+        <time datetime={date.toISOString()}>{formattedDate}</time>
+      </div>
+      
+      <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink font-bold leading-tight mb-6">
+        {title}
+      </h1>
+      
+      {tags && tags.length > 0 && (
+        <div class="flex flex-wrap items-center justify-center gap-2">
+          {tags.map((tag: string) => (
+            <a 
+              href={`/tags/${tag.toLowerCase()}`}
+              class="px-3 py-1 text-xs font-medium bg-parchment-200 text-ink-lighter rounded-full hover:bg-forest-100 hover:text-forest-700 transition-colors"
+            >
+              {tag}
+            </a>
+          ))}
+        </div>
+      )}
+    </header>
+
+    <!-- Decorative divider -->
+    <div class="flex items-center justify-center gap-4 mb-10">
+      <div class="h-px w-16 bg-trail/30"></div>
+      <span class="text-trail text-lg">✦</span>
+      <div class="h-px w-16 bg-trail/30"></div>
+    </div>
+
+    <!-- Article Content -->
+    <div class="prose prose-lg prose-stone max-w-none 
+                prose-headings:font-serif prose-headings:text-ink
+                prose-p:text-ink-light prose-p:leading-relaxed
+                prose-a:text-forest-600 prose-a:no-underline prose-a:border-b prose-a:border-forest-300 hover:prose-a:border-forest-600
+                prose-blockquote:border-l-trail prose-blockquote:bg-parchment-100/50 prose-blockquote:py-2
+                prose-strong:text-ink prose-strong:font-semibold
+                prose-li:text-ink-light">
+      <slot />
+    </div>
+
+    <!-- Article Footer -->
+    <footer class="mt-16 pt-8 border-t border-trail/20">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a 
+          href="/posts" 
+          class="inline-flex items-center gap-2 text-forest-600 hover:text-forest-500 font-medium transition-colors"
+        >
+          <span>←</span>
+          <span>Back to all articles</span>
+        </a>
+        
+        {tags && tags.length > 0 && (
+          <div class="flex flex-wrap items-center gap-2 text-sm">
+            <span class="text-ink-lighter">Filed under:</span>
+            {tags.map((tag: string, index: number) => (
+              <>
+                <a 
+                  href={`/tags/${tag.toLowerCase()}`}
+                  class="text-forest-600 hover:text-forest-500"
+                >
+                  {tag}
+                </a>
+                {index < tags.length - 1 && <span class="text-trail/50">,</span>}
+              </>
+            ))}
+          </div>
+        )}
+      </div>
+    </footer>
+  </article>
+</BaseLayout>

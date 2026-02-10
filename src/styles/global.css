@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-parchment-50 text-ink-light font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-ink;
+  }
+}
+
+@layer components {
+  /* Decorative compass rose - can be used as a section divider */
+  .compass-divider {
+    @apply relative py-8;
+  }
+  
+  .compass-divider::before {
+    content: '✦';
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-trail text-2xl;
+  }
+  
+  .compass-divider::after {
+    content: '';
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-px bg-trail/30;
+  }
+  
+  /* Styled blockquotes for historical quotes */
+  .prose blockquote {
+    @apply border-l-4 border-trail bg-parchment-100/50 px-6 py-4 italic;
+  }
+  
+  /* Bibliography/references section styling */
+  .references {
+    @apply mt-12 pt-8 border-t-2 border-trail/20;
+  }
+  
+  .references h2,
+  .references h3 {
+    @apply text-lg font-serif text-ink mb-4 flex items-center gap-2;
+  }
+  
+  .references h2::before,
+  .references h3::before {
+    content: '📚';
+  }
+  
+  .references ul {
+    @apply space-y-2 text-sm text-ink-lighter;
+  }
+  
+  .references li {
+    @apply pl-4 border-l-2 border-parchment-400;
+  }
+  
+  .references a {
+    @apply text-forest-600 hover:text-forest-500 underline decoration-forest-300;
+  }
+}
+
+/* Subtle paper texture overlay */
+.paper-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-blend-mode: soft-light;
+  opacity: 0.03;
+}
