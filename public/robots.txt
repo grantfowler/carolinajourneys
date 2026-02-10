@@ -1,0 +1,7 @@
+# Carolina Journeys
+# https://carolinajourneys.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://carolinajourneys.com/sitemap-index.xml
