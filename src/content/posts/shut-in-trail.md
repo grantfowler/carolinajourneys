@@ -1,5 +1,5 @@
 ---
-title: "8 - The Shut-In Trail"
+title: "The Shut-In Trail"
 date: 2004-06-23
 description: "Hiking the historic Shut-In Trail near Asheville, following the path of George Vanderbilt from his mansion to Mount Pisgah."
 tags: ["Hiking", "Mountains", "Asheville", "Blue Ridge"]

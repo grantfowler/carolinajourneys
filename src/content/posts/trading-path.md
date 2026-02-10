@@ -1,5 +1,5 @@
 ---
-title: "3 - Retracing the Great Indian Trading Path - Occaneechi Town to the Trading Ford"
+title: "Retracing the Great Indian Trading Path - Occaneechi Town to the Trading Ford"
 date: 2004-06-29
 description: "Following the ancient Trading Path from Occaneechi Town to the Trading Ford on the Yadkin River, tracing the route of John Lawson and countless travelers before him."
 tags: ["History", "Trading Path", "Piedmont", "Native American"]

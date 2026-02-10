@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found" description="The trail you're looking for doesn't exist.">
+  <div class="max-w-3xl mx-auto px-4 py-24 text-center">
+    <div class="mb-8">
+      <span class="text-8xl">🧭</span>
+    </div>
+    
+    <h1 class="font-serif text-4xl sm:text-5xl text-ink font-bold mb-6">
+      Trail Not Found
+    </h1>
+    
+    <p class="text-xl text-ink-light mb-8 max-w-lg mx-auto">
+      Looks like this path has vanished into the wilderness. 
+      Perhaps it was swallowed by kudzu, or maybe it never existed at all.
+    </p>
+    
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a 
+        href="/" 
+        class="inline-flex items-center gap-2 px-6 py-3 bg-forest-600 text-white rounded-lg hover:bg-forest-500 transition-colors font-medium"
+      >
+        <span>←</span>
+        <span>Back to Base Camp</span>
+      </a>
+      <a 
+        href="/posts" 
+        class="inline-flex items-center gap-2 px-6 py-3 border border-trail/30 text-ink rounded-lg hover:bg-parchment-100 transition-colors font-medium"
+      >
+        <span>Browse All Trails</span>
+        <span>→</span>
+      </a>
+    </div>
+    
+    <div class="mt-16 text-ink-lighter text-sm italic">
+      "Not all who wander are lost — but you might be."
+    </div>
+  </div>
+</BaseLayout>
