@@ -1,5 +1,5 @@
 ---
-title: "Union Square and the Lost Capitol"
+title: "1 - Union Square"
 date: 2004-06-22
 description: "Exploring Union Square in Raleigh, where North Carolina briefly had its capitol, and the streets still remember."
 tags: ["History", "Raleigh", "Urban", "Architecture"]
