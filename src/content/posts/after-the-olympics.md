@@ -23,7 +23,9 @@ In a low voice, and with great intensity, the doctor began his disturbing taleâ€
 
 Just like I warned you, it has happened. Maybe it is not quite the end but the last act is surely well under way.  The
 
-U.S. men's soccer team made it all the way to the medal round at the Olympics in Sydney for the first time ever" and the U.S. women's soccer team, long dominant in the world, was barely edged out for the Olympic gold. Meanwhile American distance runners were absent from most of the Olympic finals and were invisible during the marathon coverage. You say, "So?"  You foolish, foolish person!! While America's youth flocks to soccer, America's distance runners are aging, slowing and disappearing from the world scene. Once world class, American distance runners are now second class, at best.
+U.S. men's soccer team made it all the way to the medal round at the Olympics in Sydney for the first time ever" and the U.S. women's soccer team, long dominant in the world, was barely edged out for the Olympic gold. Meanwhile American distance runners were absent from most of the Olympic finals and were invisible during the marathon coverage. You say, "So?"  You foolish, foolish person!! While America's youth flocks to soccer, America's distance runners are aging, slowing and disappearing from the world scene.
+
+Once world class, American distance runners are now second class, at best.
 
 Our young folk are
 
@@ -31,10 +33,16 @@ now playing soccer in huge numbers and are competing with the world.
 
 With no new influx of young runners, the average age of road racers is increasing, as is the average age of running club members. In local races the over 35 and over 40 age groups are always the largest.
 
-The overriding importance of age group awards, the increased popularity of 5K races at the expense of longer distances, baby jogger use and complications, the increased popularity of alternative events: age-handicap races, hashing, ultras, orienteering, walks, etc., are some of the consequences. In-line skates, cross-country skiing, mountain bikes, bungee-jumping, how can running compete? It is hopeless, hopeless, hopeless. Our running club will soon become simply a retirement activity and will lobby against social security cuts and estate taxes. ... 5K Run for Medicare ..... cost of prescription drugs  ...... AARP .......
+The overriding importance of age group awards, the increased popularity of 5K races at the expense of longer distances, baby jogger use and complications, the increased popularity of alternative events: age-handicap races, hashing, ultras, orienteering, walks, etc., are some of the consequences. In-line skates, cross-country skiing, mountain bikes, bungee-jumping, how can running compete? It is hopeless, hopeless, hopeless. Our running club will soon become simply a retirement activity and will lobby against social security cuts and estate taxes. ... 5K Run for Medicare ..... cost of prescription drugs  ......
+
+AARP .......
 
 Geritol ads in the newsletter ..........
 
-Thunder crashed nearby and I awoke with a start. Had I been dreaming? No. The Coronas were upright but empty on the floor, the frog-green wedges mashed and safely inside the bottles. Ernest was gone and the house was quiet and dark. The rain began drumming on the roof. My knees ached a little as I stood up. Maybe I needed to pick up my mileage a bit, I thought to myself. Get back in shape. Run a 10K. Maybe a marathon? Walking into the living room I noticed my four year old son's soccer ball on the sofa.
+Thunder crashed nearby and I awoke with a start. Had I been dreaming? No. The Coronas were upright but empty on the floor, the frog-green wedges mashed and safely inside the bottles.
+
+Ernest was gone and the house was quiet and dark. The rain began drumming on the roof. My knees ached a little as I stood up. Maybe I needed to pick up my mileage a bit, I thought to myself.
+
+Get back in shape. Run a 10K. Maybe a marathon? Walking into the living room I noticed my four year old son's soccer ball on the sofa.
 
 I picked it up, tossed it high in the air and caught it. I stood there a moment lost in thought. Then I walked to the closet and placed the soccer ball high up on the closet's top shelf and hid it behind the box of Legos.

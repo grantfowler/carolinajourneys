@@ -7,7 +7,9 @@ tags: ["Hiking", "Mountains", "Blowing Rock", "Blue Ridge Parkway"]
 image: "/images/posts/flattop.jpg"
 ---
 
-Since the late 1970s, at regular three or four year intervals, I find myself standing at the top of the firetower on Flat Top Mountain taking stock of what I've done and what I want to do in this life. Sometimes it's winter and I've cross-country skied to the top. Sometimes it's summer and I've jogged the trail to the tower—and sometimes I've just walked it. I always stand at the top, hands on the rail, and slowly scan the 360 degree view, from Grandfather Mountain to the west, and the town of Blowing Rock to the south. I stay there long enough—I'm usually there all by myself'until I compose, and say out loud, what I call a "Flat Top Firetower Statement.'  The statement is always about what I'll get done before I next climb the carriage trail up to Flat Top Mountain and stand atop the firetower. And maybe I don't really say it out loud—but it always feels like I do.
+Since the late 1970s, at regular three or four year intervals, I find myself standing at the top of the firetower on Flat Top Mountain taking stock of what I've done and what I want to do in this life. Sometimes it's winter and I've cross-country skied to the top. Sometimes it's summer and I've jogged the trail to the tower—and sometimes I've just walked it. I always stand at the top, hands on the rail, and slowly scan the 360 degree view, from Grandfather Mountain to the west, and the town of Blowing Rock to the south.
+
+I stay there long enough—I'm usually there all by myself'until I compose, and say out loud, what I call a "Flat Top Firetower Statement.'  The statement is always about what I'll get done before I next climb the carriage trail up to Flat Top Mountain and stand atop the firetower. And maybe I don't really say it out loud—but it always feels like I do.
 
 The trail up Flat Top Mountain begins at the parking lot for the grand old mansion that houses the Southern Highlands Handicraft Guild on the Blue Ridge Parkway between mile posts 292 and 295. It's also just up Highway 221 from Blowing Rock.
 
