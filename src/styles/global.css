@@ -39,6 +39,17 @@
     @apply border-l-4 border-trail bg-parchment-100/50 px-6 py-4 italic;
   }
   
+  /* Better paragraph spacing in prose */
+  .prose p {
+    @apply mb-6;
+  }
+  
+  /* Drop cap for first paragraph (optional visual enhancement) */
+  .prose > p:first-of-type::first-letter {
+    @apply float-left text-5xl font-serif text-ink mr-3 mt-1;
+    line-height: 0.8;
+  }
+  
   /* Bibliography/references section styling */
   .references {
     @apply mt-12 pt-8 border-t-2 border-trail/20;
