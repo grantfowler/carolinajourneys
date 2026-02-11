@@ -49,6 +49,20 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
       )}
     </header>
 
+    <!-- Featured Image -->
+    {image && (
+      <figure class="mb-10">
+        <img 
+          src={image} 
+          alt={title}
+          class="w-full rounded-lg border border-trail/20 shadow-sm"
+        />
+        <figcaption class="mt-2 text-center text-sm text-ink-lighter italic">
+          Photo from the original Carolina Journeys collection
+        </figcaption>
+      </figure>
+    )}
+
     <!-- Decorative divider -->
     <div class="flex items-center justify-center gap-4 mb-10">
       <div class="h-px w-16 bg-trail/30"></div>
