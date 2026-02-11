@@ -14,9 +14,38 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   month: 'long',
   day: 'numeric'
 });
+
+// Build canonical URL for structured data
+const canonicalURL = new URL(`/posts/${post.slug}`, Astro.site);
+const imageURL = image ? new URL(image, Astro.site).toString() : null;
+
+// JSON-LD structured data for SEO
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "author": {
+    "@type": "Person",
+    "name": author || "Tom Fowler"
+  },
+  "datePublished": date.toISOString(),
+  "publisher": {
+    "@type": "Organization",
+    "name": "Carolina Journeys",
+    "url": "https://carolinajourneys.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL.toString()
+  },
+  ...(imageURL && { "image": imageURL })
+};
 ---
 
 <BaseLayout title={title} description={description} image={image}>
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class="max-w-3xl mx-auto px-4 py-12">
     <!-- Article Header -->
     <header class="mb-10 text-center">
