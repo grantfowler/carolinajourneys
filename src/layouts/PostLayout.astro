@@ -15,6 +15,12 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   day: 'numeric'
 });
 
+// Calculate reading time (~200 words per minute)
+const content = await post.render();
+const text = post.body || '';
+const wordCount = text.split(/\s+/).filter(word => word.length > 0).length;
+const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+
 // Build canonical URL for structured data
 const canonicalURL = new URL(`/posts/${post.slug}`, Astro.site);
 const imageURL = image ? new URL(image, Astro.site).toString() : null;
@@ -58,6 +64,8 @@ const jsonLd = {
         )}
         <span>📅</span>
         <time datetime={date.toISOString()}>{formattedDate}</time>
+        <span class="text-trail/50">•</span>
+        <span class="text-ink-lighter">{readingTime} min read</span>
       </div>
       
       <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink font-bold leading-tight mb-6">
