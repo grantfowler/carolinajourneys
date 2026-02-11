@@ -7,6 +7,7 @@ interface Props {
 
 const { title, description = "Exploring the trails of the Carolinas, both real and imagined", image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = image ? new URL(image, Astro.site) : new URL('/og-image.svg', Astro.site);
 ---
 
 <!DOCTYPE html>
@@ -27,14 +28,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={`${title} | Carolina Journeys`} />
     <meta property="og:description" content={description} />
-    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <meta property="og:image" content={ogImage} />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={canonicalURL} />
     <meta property="twitter:title" content={`${title} | Carolina Journeys`} />
     <meta property="twitter:description" content={description} />
-    {image && <meta property="twitter:image" content={new URL(image, Astro.site)} />}
+    <meta property="twitter:image" content={ogImage} />
     
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Carolina Journeys RSS Feed" href="/rss.xml" />
